@@ -28,7 +28,7 @@ document.querySelectorAll('.theme-toggler .theme-btn').forEach(btn =>{
 
 });
 
-var swiper = new swiper(".home-slider", {
+var swiper = new Swiper(".home-slider", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
@@ -43,11 +43,11 @@ var swiper = new swiper(".home-slider", {
   loop:true,
   autoplay:{
     delay: 3000,
-    disableOnInteraction:false, 
+    disableOnInteraction:false,
   }
 });
 
-var swiper = new swiper(".review-slider", {
+var swiper = new Swiper(".review-slider", {
     slidesPerView: 1,
     grabCursor: true,
     loop:true,
